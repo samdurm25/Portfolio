@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Monsterrat'],
+      'sans': ['"Monsterrat", sans-serif'],
     },
     extend: {},
   },
