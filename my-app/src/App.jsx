@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
 
 // Component Imports 
@@ -8,16 +8,16 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
+	// const [count, setCount] = useState(0)
 
-  return (
-    <> 
-      <Header className=""></Header>
-      <About className=""></About>
-      <Projects className=""></Projects>
-      <Contact className=""></Contact>
-    </>
-  )
+	return (
+		<>
+			<Header className=""></Header>
+			<About className=""></About>
+			<Projects className=""></Projects>
+			<Contact className=""></Contact>
+		</>
+	)
 }
 
 export default App
