@@ -4,3 +4,8 @@
   padding: 2rem;
   text-align: center;
 }
+
+body {
+  color: white; 
+  background-color: #232323;
+}

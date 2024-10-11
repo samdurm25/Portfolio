@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-    <p>Vite/React</p>
+      <p>Vite/React</p>
     </>
   )
 }
 
-export default App
+export default App; 
