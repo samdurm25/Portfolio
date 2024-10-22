@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
 
 // Component Imports 
@@ -9,7 +9,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
+	// const [count, setCount] = useState(0)
 
   return (
     <div id="app"> 
