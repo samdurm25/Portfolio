@@ -11,27 +11,27 @@ import Contact from './components/Contact'
 function App() {
 	// const [count, setCount] = useState(0)
 
-  return (
-    <div id="app"> 
-      <Header className=""></Header>
+	return (
+		<div id="app">
+			<Header className=""></Header>
 
-      <section id="home">
-        <Home></Home>
-      </section>
+			<section id="home">
+				<Home></Home>
+			</section>
 
-      <section id="about">
-        <About></About>
-      </section>
+			<section id="about">
+				<About></About>
+			</section>
 
-      <section id="projects">
-        <Projects></Projects>
-      </section>
+			<section id="projects">
+				<Projects></Projects>
+			</section>
 
-      <section id="contact">
-        <Contact></Contact>
-      </section>
-    </div>
-  )
+			<section id="contact">
+				<Contact></Contact>
+			</section>
+		</div>
+	)
 }
 
 export default App
