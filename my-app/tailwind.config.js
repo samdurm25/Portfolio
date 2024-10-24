@@ -7,6 +7,8 @@ export default {
 	theme: {
 		fontFamily: {
 			'sans': ['"Monsterrat", sans-serif'],
+			'serif': ['"Old Standard TT Static", serif'],
+			'mono': ['"Anonymous Pro", monospace']
 		},
 		extend: {},
 	},

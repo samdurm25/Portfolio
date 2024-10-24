@@ -1,8 +1,18 @@
+import TypingEffect from "./TypingEffect";
 
 const Home = () => {
+    const newLine = `\n`;
+
     return (
-        <div className="h-screen flex justify-center">
-            <p className="">Logo</p>
+        <div className="h-screen flex items-center pt-[72px]">
+            <div className="w-1/2 lg:m-[25vw] md:m-[18vw] sm:m-[15vw]">
+                <h1 style={{ whiteSpace: "pre-line" }} className="typing-effect font-mono text-4xl">.Sam-Durm &#123;{newLine}&nbsp;&nbsp;&nbsp;&nbsp;
+                    <TypingEffect></TypingEffect>
+                {newLine}&#125;</h1>
+            </div>
+            <div className="w-1/2">
+                <h1 className="text-2xl">More text</h1>
+            </div>
         </div>
     );
 };

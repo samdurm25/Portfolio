@@ -1,6 +1,8 @@
 // import { useState } from 'react'
 import './App.css'
 
+import AnimatedCursor from 'react-animated-cursor'
+
 // Component Imports 
 import Header from './components/Header'
 import Home from './components/Home'
@@ -13,6 +15,28 @@ function App() {
 
 	return (
 		<div id="app">
+			<AnimatedCursor
+				innerSize={15}
+				outerSize={10}
+				color='14, 149, 70'
+				outerAlpha={0.4}
+				innerScale={0.8}
+				outerScale={5}
+				clickables={[
+					'a',
+					'input[type="text"]',
+					'input[type="email"]',
+					'input[type="number"]',
+					'input[type="submit"]',
+					'input[type="image"]',
+					'label[for]',
+					'select',
+					'textarea',
+					'button',
+					'.link'
+				]}
+			/>
+
 			<Header className=""></Header>
 
 			<section id="home">
