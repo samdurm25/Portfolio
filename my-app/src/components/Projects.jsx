@@ -1,7 +1,7 @@
 
 const Projects = () => {
     return (
-        <div className="h-screen pt-[72px]">
+        <div className="min-h-screen">
             <p>Projects Section</p>
         </div>
     );

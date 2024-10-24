@@ -24,6 +24,7 @@ function App() {
 				outerScale={5}
 				clickables={[
 					'a',
+					'.scroll-div',
 					'input[type="text"]',
 					'input[type="email"]',
 					'input[type="number"]',
@@ -38,9 +39,9 @@ function App() {
 			/>
 
 			<Header className=""></Header>
-
 			<section id="home">
 				<Home></Home>
+
 			</section>
 
 			<section id="about">

@@ -4,7 +4,7 @@ const Home = () => {
     const newLine = `\n`;
 
     return (
-        <div className="h-screen flex items-center pt-[72px]">
+        <div className="min-h-screen flex items-center">
             <div className="w-1/2 lg:m-[25vw] md:m-[18vw] sm:m-[15vw]">
                 <h1 style={{ whiteSpace: "pre-line" }} className="typing-effect font-mono text-4xl">.Sam-Durm &#123;{newLine}&nbsp;&nbsp;&nbsp;&nbsp;
                     <TypingEffect></TypingEffect>
@@ -18,3 +18,5 @@ const Home = () => {
 };
 
 export default Home; 
+
+// 

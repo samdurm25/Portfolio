@@ -10,7 +10,18 @@ export default {
 			'serif': ['"Old Standard TT Static", serif'],
 			'mono': ['"Anonymous Pro", monospace']
 		},
-		extend: {},
+
+		extend: {
+		// TOOD: Working Animations with Tailwind - Either Scrap or Perfect 
+			// keyframes: {
+			// 	bounce: {
+			// 		// '0%, 25%, 50%, 75%, 100%': {}
+			// 	}
+			// },
+			// animation: {
+			// 	bounce: 'bounce 1s ease-in-out infinite',
+			// }
+		},
 	},
 	plugins: [],
 }
