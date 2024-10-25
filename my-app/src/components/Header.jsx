@@ -2,9 +2,9 @@ import Navbar from "./Navbar";
 
 const Header = () => {
     return (
-        <div className="fixed flex justify-between w-screen px-8 py-5 z-50">
-            <div className="text-lg font-serif">
-                <h1>Sam Durm</h1>
+        <div className="fixed flex justify-between items-center w-screen px-8 py-5 z-50">
+            <div>
+                <img className="w-[92px] h-[92px]" src={"public/logo.svg"} alt="" />
             </div>
 
             <Navbar></Navbar>
